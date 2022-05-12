@@ -1,4 +1,42 @@
 body {
     margin: 0;
     font-family: 'roboto', sans-serif, Arial, Helvetica;
+    background-color: rgb(244, 237, 255) !important;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 237, 255) !important;
+}
+
+.question-footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding-top: 8px;
+}
+
+.quiz-card {
+    width: 30rem;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.quiz-answer-card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.015);
+}
+
+.bg-success {
+    color: white;
+}
+
+.bg-danger {
+    color: white;
 }
