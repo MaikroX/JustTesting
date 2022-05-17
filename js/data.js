@@ -1,9 +1,9 @@
 let questions = [{
-        "question": "Wer hat HTML erfunden ?",
-        "answer_1": "Robbie Williams",
-        "answer_2": "Lady Gaga",
-        "answer_3": "Tim Berners Lee",
-        "answer_4": "Justin Bieber",
+        "question": "Was heißt NFC ?",
+        "answer_1": "New Franchise Coorp",
+        "answer_2": "No Founder Company",
+        "answer_3": "Near Field Communication",
+        "answer_4": "National Football Club",
         "right_answer": 3
     },
     {
@@ -52,6 +52,6 @@ let questions = [{
         "answer_2": "Jeff Bezos",
         "answer_3": "Elon Musk",
         "answer_4": "Jeve Sobs",
-        "right_answer": 4
+        "right_answer": 2
     },
 ];

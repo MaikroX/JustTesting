@@ -8,33 +8,30 @@
     <title>QuizApp</title>
 
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/fonts.css">
 
     <script src="js/data.js"></script>
     <script src="js/main.js"></script>
     <script src="js/template.js"></script>
-
 </head>
+
+<!-- Load the Start Screen -->
 
 <body onload="init()">
 
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-            <span class="navbar-brand mb-0 h1">Navbar</span>
-        </div>
-    </nav>
 
-
-    <!-- Quizcontainer-->
+    <!-- Quizcontainer -->
     <div id="quiz-container" class="container">
+
         <div class="card quiz-card">
             <img src="./img/frage.jpg" class="card-img-top " alt=" ">
+            <div class="progress">
+                <div class="progress-bar" id="progress-bar" role="progressbar" style="width: 0%;">25%</div>
+            </div>
             <div class="card-body">
                 <h5 class="card-title" id="questiontext">Frage</h5>
-
-
                 <div class="card mb-2 quiz-answer-card" onclick="answer('answer_1')">
                     <div class="card-body" id="answer_1">
                         Antwort
@@ -55,18 +52,13 @@
                         Antwort
                     </div>
                 </div>
-
-
                 <div class="question-footer">
                     <div><b id="question_number">1</b> von <b id="all-questions">7</b> Fragen</div>
-
                     <button class="btn btn-success" id="next_Button" disabled onclick="nextQuestion()">Nächste Frage</button>
                 </div>
             </div>
-
         </div>
     </div>
-
 </body>
 
 </html>
