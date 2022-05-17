@@ -21,7 +21,7 @@ body {
 }
 
 .quiz-card {
-    width: 30rem;
+    max-width: 30rem;
 }
 
 .card-body {
@@ -39,4 +39,88 @@ body {
 
 .bg-danger {
     color: white;
+}
+
+.endscore {
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.main-end-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: none !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 157, 159);
+    height: 100%;
+    width: 400px;
+    border-radius: 8px 8px 0px 0px;
+    clip-path: polygon( 0% 0%, 100% 0%, 100% calc(100% - 55px), 0% 100%);
+}
+
+.bold-text {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+.ending-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 12px;
+    color: white;
+}
+
+.end-container img {
+    margin-top: 24px;
+    height: 150px;
+}
+
+.end-buttons {
+    display: flex;
+}
+
+.end-buttons div {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: -12px;
+}
+
+.end-buttons div button {
+    margin: 12px;
+    background-color: rgb(41, 157, 159) !important;
+    border: none;
+    font-weight: bold;
+}
+
+.end-buttons div button:hover {
+    background-color: rgb(238, 204, 112) !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
 }
