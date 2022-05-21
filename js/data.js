@@ -8,10 +8,10 @@ let questions = [{
     },
     {
         "question": "Wer ist der König des Internets ?",
-        "answer_1": "Paul Berger",
-        "answer_2": "King Knossi",
+        "answer_1": "Knoppers",
+        "answer_2": "Knossi",
         "answer_3": "Peter Fox",
-        "answer_4": "Max Mustermann",
+        "answer_4": "Hans Peter Geerdes",
         "right_answer": 2
     },
     {
@@ -31,7 +31,7 @@ let questions = [{
         "right_answer": 4
     },
     {
-        "question": "Wie endet eine Domain die auf den Malediven registriert wird ?",
+        "question": "Wie endet eine Domain von Malediven registriert wird ?",
         "answer_1": ".de",
         "answer_2": ".com",
         "answer_3": ".ma",
@@ -39,7 +39,7 @@ let questions = [{
         "right_answer": 4
     },
     {
-        "question": "Wer hat nach Instagram selbst die meisten Follower (423 Mio.) auf der Plattform Instagram - stand: 07.April 2022 ?",
+        "question": "Wer hat aktuell (nach Instagram selbst) die meisten Follower auf Instagram ?",
         "answer_1": "Christiano Ronaldo",
         "answer_2": "Kylie Jenner",
         "answer_3": "Kim Kardashian",
@@ -47,7 +47,7 @@ let questions = [{
         "right_answer": 1
     },
     {
-        "question": "Wie heißt der Gründer des Onlineversandhändlers Amazon ?",
+        "question": "Wie heißt der Gründer des Onlineversand Händlers Amazon ?",
         "answer_1": "Steve Jobs",
         "answer_2": "Jeff Bezos",
         "answer_3": "Elon Musk",

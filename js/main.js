@@ -48,6 +48,7 @@ function answer(selection) { /* variable selecetion (Name frei wählbar) - wird 
         AUDIO_FAIL.play();
     }
     document.getElementById('next_Button').disabled = false;
+    document.getElementById('display_none').classList.add('display-none');
     progressBar();
 }
 
@@ -96,4 +97,13 @@ function showNextQuestion() {
     document.getElementById('answer_2').innerHTML = question.answer_2;
     document.getElementById('answer_3').innerHTML = question.answer_3;
     document.getElementById('answer_4').innerHTML = question.answer_4;
+    document.getElementById('display_none').classList.remove('display-none')
 }
+
+setTimeout(function() {
+    document.getElementById('starter_screen').classList.add('start-none');
+}, 3500);
+
+setTimeout(function() {
+    document.getElementById('starter_screen').classList.add('start-none1');
+}, 6700);

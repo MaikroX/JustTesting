@@ -16,3 +16,27 @@
         margin-top: 8px;
     }
 }
+
+@media(max-width: 300px) {
+    .display-none {
+        height: 350px;
+    }
+}
+
+@media(max-width: 244px) {
+    .display-none {
+        height: 408px;
+    }
+}
+
+@media(max-width: 207px) {
+    .display-none {
+        height: 460px;
+    }
+}
+
+@media(max-width: 186px) {
+    .display-none {
+        height: 500px;
+    }
+}
